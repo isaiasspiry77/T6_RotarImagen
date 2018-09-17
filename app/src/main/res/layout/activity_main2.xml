@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Rojo"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:layout_marginTop="110dp"/>
+
+        <SeekBar
+            android:id="@+id/rojo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="255"
+            android:min="0"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Verde"
+            android:textColor="#3ADF00"
+            android:gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <SeekBar
+            android:id="@+id/Green"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="255"
+            android:min="0"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Azul"
+            android:textColor="#0431B4"
+            android:gravity="center"
+            android:layout_marginTop="50dp"/>
+
+        <SeekBar
+            android:id="@+id/Blue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="255"
+            android:min="0"/>
+
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="391dp"
+            android:layout_height="462dp"
+            android:background="#444"
+            android:text="Muestario de colores"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
